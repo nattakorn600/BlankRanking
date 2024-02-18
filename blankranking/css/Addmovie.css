@@ -1,0 +1,90 @@
+body {
+  background-image: url(../admin/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646;
+  
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url(../admin/background-mobile.jpg);
+  }
+  }
+
+
+/* Info */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+ .w3-half {
+    background-color: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    position: relative;
+ }
+
+ .w3-quarter {
+    background-color: rgba(0, 0, 0, 0);
+ }
+
+  .w3-row {
+    background-color: rgba(0, 0, 0, 0);
+ }
+
+ .w3-button {
+  background-color: rgba(0, 0, 0, 0.0);
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+ }
+
+ .w3-button :hover{
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  position: relative;
+  font-size: 30px;
+ }
+
+
+

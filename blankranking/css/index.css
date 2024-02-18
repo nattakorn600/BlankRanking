@@ -1,0 +1,69 @@
+/* Font body */
+body,h1,h2,h3,h4,h5 {
+	font-family: "Raleway",
+	sans-serif
+  }
+
+/* hearder */ 
+  .w3-container a {
+    color: gray; 
+    text-decoration: none;
+  }
+
+  .w3-container li {
+    text-decoration: none;
+    list-style-type:none;
+  }  
+
+/* slidebar */
+  .w3-sidebar a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .w3-sidebar li {
+    text-decoration: none;
+    list-style-type:none;
+  }
+
+/* Photo Guide */  
+  .w3-row img {
+  	margin-bottom: -6px; 
+  	cursor: pointer
+  }
+  .w3-row img:hover {
+  	opacity: 0.6; 
+  	transition: 0.3s
+  }
+
+  .w3-row span {
+    font-family: "Roboto",
+    sans-serif
+  }
+
+  .w3-row p {
+    font-weight: bold;
+  }
+
+  .carousel-item span {
+    font-family: "Roboto",
+    sans-serif
+  }
+
+ /* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+  .carousel-inner span {
+  	font-size: 20px;
+  }
+
+
+
+
+
+
+
+

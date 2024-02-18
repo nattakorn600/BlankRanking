@@ -1,0 +1,56 @@
+/* hearder */ 
+  .w3-container a {
+    color: gray; 
+    text-decoration: none;
+  }
+
+  .w3-container li {
+    text-decoration: none;
+    list-style-type:none;
+  }  
+
+/* slidebar */
+  .w3-sidebar a {
+    color: gray;
+    text-decoration: none;
+  }
+
+  .w3-sidebar li {
+    text-decoration: none;
+    list-style-type:none;
+  }
+
+
+
+/* Detail */
+
+body,h1,h2,h3,h4,h5 {
+  font-family: "Raleway", 
+  sans-serif
+  }  
+  
+  .w3-row {
+    font-family: "Roboto"
+  }
+
+  .bold {
+    font-weight: bold;
+  }
+
+/* Video */
+  .videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+  }
+
+ .videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
